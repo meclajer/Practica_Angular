@@ -1,0 +1,139 @@
+<!-- Header -->
+<app-header-public></app-header-public>
+
+<!-- Content -->
+<br>
+
+<h1 class="text-center titles ">Pedidos Personalizados</h1>
+
+<!-- Presentacion -->
+<section id="presentation" class="contenedor-separacion p-3 m-3">
+    <h2 class="text-center titles">¡Tú imaginación es el limite! </h2>
+</section>
+
+<!-- Pedido de Cliente -->
+<section class="container-fluid p-5">
+    <form action="">
+
+        <!-- Sabores -->
+        <h4 class="text-center p-2 col-12">Sabor:</h4>
+        <div class="row justify-content-center m-2 p-1">
+            <div class="col-lg-2 col-sm-12">
+                <label for="saborCubierta" class="p-1">Sabor de la cubierta:</label>
+            </div>
+            <div class="col-lg-10 col-sm-12">
+                <select name="saborCubierta" id="sCubierta" class="form-select">
+                    <option value="fresa">Fresa ($25)</option>
+                    <option value="chocolate">Chocolate ($25)</option>
+                    <option value="vainilla">Vainilla ($25)</option>
+                    <option value="frambuesa">Frambuesa ($35)</option>
+                    <option value="caramelo">Caramelo ($30)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row m-2 p-1">
+            <div class="col-lg-2 col-sm-12">
+                <label for="saborRelleno" class="p-1">Sabor del relleno:</label>
+            </div>
+            <div class="col-lg-10 col-sm-12">
+                <select name="saborRelleno" id="sCubierta" class="form-select">
+                    <option value="fresa">Fresa ($40)</option>
+                    <option value="chocolate">Chocolate ($35)</option>
+                    <option value="vainilla">Vainilla ($20)</option>
+                    <option value="frambuesa">Frambuesa ($45)</option>
+                    <option value="caramelo">Caramelo ($30)</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Adornos -->
+        <h4 class="text-center p-2 col-12">Adornos:</h4>
+        <h5 class="text-center p-2 col-12">¡Puedes seleccionar todos los que quieras!</h5>
+        <br>
+        <div class="row m-2 p-1">
+            <div class="col-lg-2 col-sm-12">
+                <label for="saborRelleno" class="p-1">Adorno:</label>
+            </div>
+            <div class="col-lg-10 col-sm-12">
+                <fieldset>
+                    <label class="col-lg-4 col-md-6 col-sm-12"><input type="checkbox" name="cremaBatida" id="1" value="Rosas Comestibles"> Rosas Comestibles ($50)</label>
+                    <label class="col-lg-4 col-md-6 col-sm-12"><input type="checkbox" name="cremaBatida" id="2" value="Rosas Comestibles"> Ferrero Rocher ($30)</label>
+                    <label class="col-lg-4 col-md-6 col-sm-12"><input type="checkbox" name="cremaBatida" id="3" value="Rosas Comestibles"> Mariposa comestibles ($45)</label>
+                    <label class="col-lg-4 col-md-6 col-sm-12"><input type="checkbox" name="cremaBatida" id="4" value="Rosas Comestibles"> Oreos ($25)</label>
+                    <label class="col-lg-4 col-md-6 col-sm-12"><input type="checkbox" name="cremaBatida" id="5" value="Rosas Comestibles"> Betún ($10)</label>
+                </fieldset>
+            </div>
+        </div>
+
+        <!-- Datos Cliente -->
+        <h4 class="text-center p-2 col-12">Datos de contacto:</h4>
+        <div class="row m-2 p-1">
+            <div class="col-lg-2 col-sm-12">
+                <label for="nombreCliente" class="p-1">Nombre:</label>
+            </div>
+            <div class="col-lg-10 col-sm-12">
+                <input type="text" name="nombreCliente" id="namCliente" placeholder="Nombre completo" maxlength="80" class="form-control">
+            </div>
+        </div>
+        <div class="row m-2 p-1">
+            <div class="col-lg-2 col-sm-12">
+                <label for="numTelefono" class="p-1">Telefono:</label>
+            </div>
+            <div class="col-lg-10 col-sm-12">
+                <input type="tel" name="numTelefono" id="telCliente" placeholder="012-345-6789" maxlength="10" class="form-control">
+            </div>
+        </div>
+        <div class="row m-2 p-1">
+            <div class="col-lg-2 col-sm-12">
+                <label for="emailClient" class="p-1">Correo electronico:</label>
+            </div>
+            <div class="col-lg-10 col-sm-12">
+                <input type="email" name="emailClient" id="correoCliente" placeholder="usuario@ejemplo.com" maxlength="100" class="form-control">
+            </div>
+        </div>
+
+        <!-- Direccion -->
+        <h5 class="text-center p-2 col-12">Dirección</h5>
+        <div class="row m-2 p-1">
+            <div class="col-lg-2 col-sm-12">
+                <label for="calleCliente" class="p-1">Calle:</label>
+            </div>
+            <div class="col-lg-10 col-sm-12">
+                <input type="text" name="calleCliente" id="calleCliente" placeholder="Nombre de la calle" maxlength="250" class="form-control">
+            </div>
+        </div>
+        <div class="row m-2 p-1">
+            <div class="col-lg-2 col-sm-12">
+                <label for="numCalleCliente" class="p-1">Número:</label>
+            </div>
+            <div class="col-lg-10 col-sm-12">
+                <input type="text" name="numCalleCliente" id="numDirecCliente" placeholder="Número" maxlength="250" class="form-control">
+            </div>
+        </div>
+        <div class="row m-2 p-1">
+            <div class="col-lg-2 col-sm-12">
+                <label for="colCliente" class="p-1">Colonia:</label>
+            </div>
+            <div class="col-lg-10 col-sm-12">
+                <input type="text" name="colCliente" id="coloniaCliente" placeholder="Colonia" maxlength="250" class="form-control">
+            </div>
+        </div>
+        <div class="row m-2 p-1">
+            <div class="col-lg-2 col-sm-12 m-auto">
+                <label for="colCliente" class="p-1">Descripcion General:</label>
+            </div>
+            <div class="col-lg-10 col-sm-12">
+                <input type="text" name="colCliente" id="coloniaCliente" placeholder="Describe tu pedido" maxlength="500" class="form-control">
+            </div>
+        </div>
+
+        <p class="text-center p-2">
+            Nos pondremos en contacto contigo tan pronto como sea posible para confirmar el pedido.
+        </p>
+
+        <a href="../root.html" class="btn button-primario m-3 btn-block text-content">Realizar Pedido</a>
+    </form>
+</section>
+
+<!-- Footer -->
+<app-footer-public></app-footer-public>

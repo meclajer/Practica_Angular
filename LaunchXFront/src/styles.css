@@ -1,0 +1,104 @@
+.header {
+    background-color: #EFDBCE;
+}
+
+footer {
+    background-color: #6CA0A3;
+}
+
+.navmenu {
+    color: #175C4C !important;
+    text-decoration: none;
+}
+
+.icons-clean {
+    text-decoration: none
+}
+
+body {
+    background-color: #FFF9F5 !important;
+}
+
+footer {
+    background-color: #6CA0A3;
+}
+
+.titles {
+    font-family: 'Pacifico', cursive;
+    color: #175C4C;
+}
+
+.text-content {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+label {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+section {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+option {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.image-beauty {
+    border-radius: 5%;
+    box-shadow: 50px, 50px, 50px, black;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+    margin-bottom: 5%;
+}
+
+.map-beauty {
+    border-radius: 2%;
+    box-shadow: 50px, 50px, 50px, black;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.button-primario {
+    color: white !important;
+    background-color: #6CA0A3 !important;
+    border-color: #6CA0A3 !important;
+}
+
+.button-primario:hover {
+    color: #175C4C !important;
+    background-color: white !important;
+    border-color: #6CA0A3 !important;
+}
+
+.btn-block {
+    display: block !important;
+    padding: 1% !important;
+    font-size: 16px;
+    cursor: pointer !important;
+    text-align: center !important;
+}
+
+
+/* Mapas responsivos */
+
+.map-responsive {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

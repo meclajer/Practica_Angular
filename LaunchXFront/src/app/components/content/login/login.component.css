@@ -1,0 +1,15 @@
+body {
+    background-color: #FFF9F5;
+}
+
+.bg-card {
+    background-color: #175C4C !important;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    width: max-content;
+    position: absolute;
+    bottom: 0;
+}
